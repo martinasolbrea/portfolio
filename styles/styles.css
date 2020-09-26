@@ -1,0 +1,243 @@
+/* - Las tipografías no se me acoplan al diseño */
+
+@font-face {
+    font-family: "NunitoSans-Regular";
+    src: url(../typography/NunitoSans/NunitoSans-Regular.ttf)
+}
+
+@font-face {
+    font-family: "NunitoSans-Light";
+    src: url(../typography/NunitoSans/NunitoSans-Light.ttf)
+}
+
+@font-face {
+    font-family: "NunitoSans-SemiBold";
+    src: url(../typography/NunitoSans/NunitoSans-SemiBold.ttf)
+}
+
+@font-face {
+    font-family: "NunitoSans-Bold";
+    src: url(../typography/NunitoSans/NunitoSans-Bold.ttf)
+}
+
+@font-face {
+    font-family: "NunitoSans-ExtraBold";
+    src: url(../typography/NunitoSans/NunitoSans-ExtraBold.ttf)
+}
+
+@font-face{
+    font-family: "Mulish";
+    src: url(../typography/Mulish/Mulish-VariableFont_wght.ttf)
+}
+
+@font-face{
+    font-family: "Mulish-Bold";
+    src: url(../typography/Mulish/Mulish-Bold.ttf)
+}
+
+header{
+    border: 1px solid gray;
+    display: flex;
+    height: 58px; 
+    width: 100%;
+    justify-content: space-between;
+    /* No se me aplica el space between */
+    align-items: center;
+    font-family: "NunitoSans";
+}
+
+nav{
+    width: 100%;
+}
+
+.descipcion {
+    flex-direction: column;
+}
+
+.perspectiva{
+    width: 100%;
+    order: 2;
+}
+
+.contacto{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 0px;
+    font-family: "NunitoSans";
+}
+
+.contacto-boton{
+    background-color: #7620FF;
+    color: white;
+    padding: 10px;
+    width: 111px;
+    border: none;
+    margin-left: 24px;
+    justify-content: right;
+    font-family: "NunitoSans-Bold";
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.descripciontrabajo{
+    margin-top: 24px; 
+    margin-bottom: 80px;
+}
+
+.nombre{
+    margin-bottom: 36px;
+    font-family: "NunitoSans-ExtraBold";
+    margin-left: 24px;
+}
+
+.puesto{
+    margin-bottom: 16px;
+    font-family: "Mulish";
+    margin-left: 24px;
+}
+
+p{
+    line-height: 24px;
+    font-family: "NunitoSans-Light";
+    margin-left: 24px;
+}
+
+h1{
+    font-family: "NunitoSans-Bold";
+    line-height: 30px;
+    margin-left: 24px;
+}
+
+.proyectos{
+    margin-top: 40px;
+    margin-left: 8px;
+}
+
+.clientes{
+    margin-left: 8px;
+}
+
+.titulos{
+    margin-top: 34px;
+    font-family: "Mulish-Bold";
+    margin-left: 24px;
+    color: black;
+    font-style: bold;
+}
+
+.subtitulo{
+    margin-top: 30px;
+    margin-bottom: 36px;
+    font-family: "NunitoSans-Light";
+}
+
+.imagen{
+    margin-top: 10px;
+    margin-bottom: 16px;
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    /* No se me centra la imagen */
+}
+
+.tag{
+    font-size: 14px;
+}
+
+.caso{
+    margin-bottom: 45px;
+}
+
+.lista{
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-top: 36px;
+    margin-bottom: 24px;
+    font-family: "NunitoSans-Light";
+    line-height: 28px;
+}
+
+.emoticon{
+    font-size: 56px;
+    line-height: 36px;
+    margin-top: 36px;
+    margin-bottom: 36px;
+}
+
+.titulovalor{
+    font-family: "NunitoSans-SemiBold";
+}
+
+.lineas{
+    margin-top: 24px;
+    margin-bottom: 24px;
+    width: 100%;
+}
+
+.seccioncontacto{
+    margin-top: 36px;
+    margin-left: 14px;
+}
+
+.seccioncontacto h4{
+    margin-bottom: 30px;
+    display: flex;
+    margin-left: 14px;
+}
+
+.seccioncontacto{
+    display: flex;
+    flex-direction: column;
+}
+
+.maps{
+    line-height: 34px;
+    font-family: "NunitoSans-Light";
+    line-height: 34px;
+    color: black;
+    text-decoration: none;
+}
+
+.lineabloque{
+    margin-top: 361px;
+}
+
+.cv{
+    margin-top: 36px;
+    margin-bottom: 24px;
+}
+
+#cvdescarga{
+    background-color: #7620FF;
+    color: white;
+    padding: 10px;
+    width: 111px;
+    border: none;
+    margin-right: 24px;
+    margin-left: 280px;
+    margin-bottom: 135px;
+    font-family: "NunitoSans-Bold";
+    font-size: 18px;
+    line-height: 24px;
+}
+
+footer{
+    height: 58px;
+    display: flex;
+    font-family: "NunitoSans";
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8px;
+}
+
+#firma{
+    font-family: "NunitoSans-Light";
+    line-height: 14px;
+    justify-content: right;
+    /* No puedo hacer que se me justifique a la izquierda */
+    /* No se me aplica el space between */
+}
