@@ -48,6 +48,14 @@ header{
 
 nav{
     width: 100%;
+    position: fixed;
+    background-color: white;
+    background-size: 58px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    /* No me sale hacer el header con fondo blanco y que no me quede flotando */
+    z-index: 100;
+    top: 0;
 }
 
 .descipcion {
@@ -75,10 +83,11 @@ nav{
     width: 111px;
     border: none;
     margin-left: 24px;
+    margin-right: 24px;
     justify-content: right;
     font-family: "NunitoSans-Bold";
     font-size: 18px;
-    line-height: 24px;
+    line-height: 20px;
 }
 
 .descripciontrabajo{
@@ -86,8 +95,16 @@ nav{
     margin-bottom: 80px;
 }
 
+.degrade{
+    margin-top: 24px;
+    margin-bottom: 16px;
+    margin-left: 24px;
+    width: 64px;
+    height: 4px;
+}
+
 .nombre{
-    margin-bottom: 36px;
+    margin-bottom: 8px;
     font-family: "NunitoSans-ExtraBold";
     margin-left: 24px;
 }
@@ -102,10 +119,12 @@ p{
     line-height: 24px;
     font-family: "NunitoSans-Light";
     margin-left: 24px;
+    margin-right: 24px;
 }
 
 h1{
     font-family: "NunitoSans-Bold";
+    font-size: 20px;
     line-height: 30px;
     margin-left: 24px;
 }
@@ -113,6 +132,7 @@ h1{
 .proyectos{
     margin-top: 40px;
     margin-left: 8px;
+    margin-right: 24px;
 }
 
 .clientes{
@@ -120,16 +140,25 @@ h1{
 }
 
 .titulos{
-    margin-top: 34px;
+    margin-top: 14px;
     font-family: "Mulish-Bold";
+    margin-top: 36px;
     margin-left: 24px;
     color: black;
     font-style: bold;
 }
 
+#titulocontacto{
+    margin-top: 8px;
+    margin-left: 24px;
+    margin-bottom: 8px;
+    font-family: "Mulish-Bold";
+}
+
 .subtitulo{
-    margin-top: 30px;
-    margin-bottom: 36px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-right: 24px;
     font-family: "NunitoSans-Light";
 }
 
@@ -155,17 +184,22 @@ h1{
 .lista{
     margin-left: 24px;
     margin-right: 24px;
-    margin-top: 36px;
+    margin-top: 0px;
     margin-bottom: 24px;
     font-family: "NunitoSans-Light";
     line-height: 28px;
 }
 
 .emoticon{
-    font-size: 56px;
+    font-size: 52px;
     line-height: 36px;
     margin-top: 36px;
     margin-bottom: 36px;
+}
+
+.valores{
+    margin-left: 14px;
+    margin-right: 50px;
 }
 
 .titulovalor{
@@ -198,6 +232,7 @@ h1{
     line-height: 34px;
     font-family: "NunitoSans-Light";
     line-height: 34px;
+    margin-left: 24px;
     color: black;
     text-decoration: none;
 }
@@ -222,7 +257,7 @@ h1{
     margin-bottom: 135px;
     font-family: "NunitoSans-Bold";
     font-size: 18px;
-    line-height: 24px;
+    line-height: 20px;
 }
 
 footer{
@@ -236,8 +271,18 @@ footer{
 
 #firma{
     font-family: "NunitoSans-Light";
-    line-height: 14px;
-    justify-content: right;
-    /* No puedo hacer que se me justifique a la izquierda */
-    /* No se me aplica el space between */
+    font-size: 14px;
+    line-height: 8px;
+    justify-content: left;
+    flex-direction: column;
 }
+
+#copyright{
+    font-family: "NunitoSans-Light";
+    font-size: 10px;
+    justify-content: right;
+    line-height: 6px;
+    margin-right: 24px;
+    flex-direction: column;
+}
+
